@@ -74,14 +74,14 @@
     <!-- Without the large heap Exoplayer buffering gets reset due to OOM. -->
     <!--TODO https://stackoverflow.com/questions/41799732/chromecast-button-not-visible-in-android-->
     <application
-        android:name=".CloudStreamApp"
+        android:name=".Bunker"
         android:allowBackup="true"
         android:appCategory="video"
         android:banner="@mipmap/ic_banner"
         android:fullBackupContent="@xml/backup_descriptor"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Bunker"
         android:largeHeap="true"
         android:pageSizeCompat="enabled"
         android:roundIcon="@mipmap/ic_launcher_round"
